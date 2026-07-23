@@ -202,7 +202,7 @@ const Hero = ({ schoolName, heroImage, registrationLink }: { schoolName: string,
           Mewujudkan Generasi <span className="text-blue-400">Cerdas</span> & <span className="text-blue-400">Berkarakter</span>
         </h1>
         <p className="text-lg md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto">
-          Selamat Datang di Website Resmi {schoolName}. Tempat terbaik untuk menumbuhkan potensi anak sejak dini dengan kurikulum merdeka.
+          Selamat Datang di Website Resmi {KOMITE MAN 2 KOTA BOGOR}. Tempat terbaik untuk menumbuhkan potensi anak sejak dini dengan kurikulum merdeka.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button 
@@ -1401,7 +1401,7 @@ export default function App() {
   const [teachers, setTeachers] = useState<Teacher[]>([]);
   const [articles, setArticles] = useState<Article[]>([]);
   const [stats, setStats] = useState<Stat[]>([]);
-  const [schoolName, setSchoolName] = useState('SD Harapan Bangsa');
+  const [schoolName, setSchoolName] = useState('KOMITE MAN 2 KOTA BOGOR');
   const [heroImage, setHeroImage] = useState('https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
   const [visi, setVisi] = useState('Terwujudnya peserta didik yang beriman, cerdas, terampil, mandiri, dan berwawasan global.');
   const [misi, setMisi] = useState([
@@ -1411,9 +1411,9 @@ export default function App() {
     'Mewujudkan lingkungan sekolah yang bersih dan asri.'
   ]);
   const [registrationLink, setRegistrationLink] = useState('#');
-  const [contactAddress, setContactAddress] = useState('Jl. Pendidikan No. 123, Jakarta Selatan, DKI Jakarta 12345');
-  const [contactPhone, setContactPhone] = useState('(021) 1234-5678');
-  const [contactEmail, setContactEmail] = useState('info@sdharapanbangsa.sch.id');
+  const [contactAddress, setContactAddress] = useState('Jl. Pajajaran No. 06, Baranangsiang, Bogor Timur');
+  const [contactPhone, setContactPhone] = useState('(0251) 1234-5678');
+  const [contactEmail, setContactEmail] = useState('komiteman2kotabogor@gmail.com');
   const [socialFacebook, setSocialFacebook] = useState('#');
   const [socialInstagram, setSocialInstagram] = useState('#');
   const [socialTwitter, setSocialTwitter] = useState('#');
